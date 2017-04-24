@@ -17,7 +17,7 @@ app.get('/news', function(req, res, next){
 });
 
 // nunjucks nonsense
-var people = {names: ['Gandalf', 'Frodo', 'Hermione']};
+var peeps = {names: ['Gandalf', 'Frodo', 'Hermione']};
 var res = nunjucks.render('index.html',)
 nunjucks.render'(index.html', function(names){
 
